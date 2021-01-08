@@ -1,5 +1,3 @@
-writeCode
-
 - Create a responsive layout according to the design shown below.
 
 #### Large Screen view(Above 768px)
