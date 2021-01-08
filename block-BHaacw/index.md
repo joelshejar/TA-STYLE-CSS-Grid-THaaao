@@ -1,5 +1,3 @@
-writeCode
-
 - Create a responsive layout according to the design shown below.
 
 ![CSS Grid Assignment I](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/css-grid/assignment-1/card.png)
