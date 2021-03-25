@@ -1,0 +1,80 @@
+@media screen and (max-width:768px){
+    html{
+        font-size: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    .main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid-span-2{
+        grid-column: span 1;
+    }
+
+    header{
+        position: relative;
+        nav{
+            display: none;
+        }
+        .toggle-lable{
+            display: block;
+            font-size: 2.5rem;
+            color: #edb359;
+            z-index: 999;
+            position: fixed;
+            right: 1rem;
+        }
+        .brand{
+            z-index: 999;
+        }
+        .toggle-input:checked ~ nav{
+            display: flex;
+        }
+        nav{
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            z-index: 9;
+            background-color: rgba(173, 175, 180, 0.9);
+            .nav{
+                flex-direction: column;
+                position: fixed;
+                text-align: center;
+                align-items: center;
+                width: 100vw;
+                height: 100vh;
+                padding-top: 10rem ;
+            }
+        }
+        .nav{
+            li{
+                margin-bottom: 2rem;
+            }
+            a{
+                color: white;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    main{
+        .hero-sec-l{
+            height: 50rem;
+        }
+    }
+    .skill{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .map{
+        iframe{
+
+            width: 100%;
+        }
+    }
+}
