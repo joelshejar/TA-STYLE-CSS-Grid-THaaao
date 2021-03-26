@@ -1,0 +1,27 @@
+header{
+    position: absolute;
+    width: 100%;
+    padding: 1rem 0;
+    .brand{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #383838;
+    }
+
+    ul {
+        li{
+            margin-right: 2rem;
+            a{
+                font-size: 1rem;
+                font-weight: 500;
+                color: #383838;
+            }
+            a:hover{
+                color: #edb359;
+            }
+        }
+        .active{
+            color: #edb359;
+        }
+    }
+}

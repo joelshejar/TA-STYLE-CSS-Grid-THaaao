@@ -1,0 +1,33 @@
+footer{
+    padding:10rem 0;
+    color: #a7a3a0;
+    p{
+        span{
+            color: #edb359;
+        }
+    }
+    nav{
+        margin: 2rem 0;
+    }
+    ul {
+        li{
+            margin: 0 2rem;
+        }
+        li a{
+            color: #9a9a9a;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+// hammer bar
+
+.toggle-lable{
+    display: none;
+}
+.toggle-input{
+    display: none;
+}
+.display-none{
+    display: none;
+}
